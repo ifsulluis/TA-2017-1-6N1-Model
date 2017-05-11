@@ -39,7 +39,7 @@ public class TestePersistirSetor {
         boolean exception = false;
         try {
             Setor s = new Setor();
-            s.setNome("Acadêmico");
+            s.setNome("Adminstrativo");
             em.getTransaction().begin();
             em.persist(s);
             em.getTransaction().commit();
